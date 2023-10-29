@@ -549,13 +549,18 @@ lord-icon {
         width: 420px;
     }
     /*---------- FOOTER ----------*/
+    .footer {
+        margin-top: 20px;
+        padding: 10px 0;
+        margin-bottom: 10px;
+    }
     .sect-foot {
         display: flex;
         flex-wrap: nowrap;
         gap: 5vh;
     }
     .sect-foot img {
-        width: 30%;
+        width: 20%;
     }
     .cont-foot {
         padding-top: 4vh;
@@ -565,10 +570,10 @@ lord-icon {
         margin: auto;
     }
     .cont-foot h2 {
-        font-size: 25px;
+        font-size: 20px;
     }
     .cont-foot ul li {
-        font-size: 18px;
+        font-size: 14px;
     }
 }
 
@@ -639,14 +644,11 @@ lord-icon {
         font-size: 60px;
     }
     /*---------- FOOTER ----------*/
-    .sect-foot img {
-        width: 30%;
-    }
     .cont-foot h2 {
-        font-size: 28px;
+        font-size: 22px;
     }
     .cont-foot ul li {
-        font-size: 22px;
+        font-size: 16px;
     }
 }
 
