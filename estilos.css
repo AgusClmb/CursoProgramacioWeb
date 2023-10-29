@@ -1,0 +1,1139 @@
+/* color: var(--nombre);*/
+:root {
+    --FaluRojo: #751515;
+    --OUCarmesí: #8a1717;
+    --Carmín: #951818;
+    --CarmínT: #95181871;
+    --NegroAumado: #070600;
+    --Noche: #0F0F0F;
+    --Gris: #222222;
+    --Nyanza: #e8f8e7;
+    --NyanzaL: #c9c9c9;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Noche);
+}
+
+/*---------- HEADER ----------*/
+.header {
+    width: 100%;
+    height: 65vh;
+    position: relative;
+}
+
+.texto-header {
+    margin: 50px auto;
+    width: 90%;
+}
+
+.texto-header h1 {
+    color: var(--Nyanza);
+    font-size: 25px;
+    font-family: 'Red Rose', serif;
+    text-align: center;
+}
+span {
+    color: var(--Carmín);
+}
+
+.texto-header p {
+    color: var(--Nyanza);
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    margin-top: 15px;
+}
+
+.btn-header {
+    width: 120px;
+    padding: 15px 10px;
+    border-radius: 8%;
+    background-color: var(--Carmín);
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-header p {
+    color: var(--Nyanza);
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+/*---------- SLIDER ----------*/
+@keyframes slide {
+    from {
+    transform: translateX(0);
+    }
+    to {
+    transform: translateX(-100%);
+    }
+}
+
+.logos {
+    overflow: hidden;
+    padding: 25px 0;
+    white-space: nowrap;
+    position: relative;
+}
+
+.logos:before,
+.logos:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+.logos:hover .logos-slide {
+    animation-play-state: paused;
+}
+
+.logos-slide {
+    display: inline-block;
+    animation: 40s slide infinite linear;
+}
+
+.logos-slide img {
+    height: 40px;
+    margin: 0 25px;
+}
+
+/*---------- LINEA ----------*/
+.linea {
+    width: 80%;
+    height: 1px;
+    background-color: var(--Gris);
+    margin: 10px auto;
+}
+
+/*---------- ENSEÑAR ----------*/
+.enseñar {
+    width: 100%;
+    height: 70vh;
+    margin-top: 20px;
+}
+.grid-enseñar {
+    display: grid;
+    grid-row: auto;
+    width: 95%;
+    padding: 5vh;
+    margin: auto;
+    row-gap: 2vh;
+    background-color: var(--CarmínT);
+    border-radius: 10px;
+}
+.grid-enseñar img {
+    width: 70%;
+    margin: auto;
+}
+.grid-enseñar h2,
+.grid-enseñar p {
+    color: var(--Nyanza);
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+}
+.grid-enseñar h2 {
+    font-size: 20px;
+    padding-bottom: 1vh;
+}
+.grid-enseñar p {
+    font-size: 13px;
+}
+
+/*---------- EMPEZAR ----------*/
+.empezar {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+}
+.contine-empezar {
+    width: 95%;
+    /*background-color: var(--Gris);*/
+    margin: auto;
+    padding: 5vh;
+}
+.contine-empezar h2,
+.contine-empezar p {
+    color: var(--Nyanza);
+    padding: 10px 0;
+    font-family: 'Red Rose', serif;
+}
+.contine-empezar h2 {
+    font-size: 22px;
+}
+.contine-empezar p {
+    font-size: 17px;
+}
+.btn-empezar {
+    background-color: var(--OUCarmesí);
+    color: var(--Nyanza);
+    width: 20vh;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    font-family: 'Red Rose', serif;
+}
+
+/*---------- FASES ----------*/
+.fases {
+    width: 100%;
+    height: 100vh;
+    margin-top: 40px;
+    display: flex;
+}
+.cont-fases {
+    width: 90%;
+    margin: auto;
+}
+.cont-fases h2,
+.cont-fases p,
+.caja-fase h2,
+.caja-fase p {
+    color: var(--Nyanza);
+    font-family: 'Young Serif', serif;
+}
+.cont-fases h2 {
+    font-size: 23px;
+    padding-bottom: 10px;
+}
+.cont-fases p {
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+.caja-fase {
+    background-color: var(--Gris);
+    margin: 10px 0;
+    border-radius: 2%;
+    padding: 10px;
+}
+.caja-fase h2 {
+    font-size: 23px;
+    padding-top: 10px;
+}
+.caja-fase p {
+    font-size: 13px;
+    width: 80%;
+}
+lord-icon {
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin: 10px 10px 0 0;
+}
+
+/*---------- UNIRSE ----------*/
+.unirse {
+    background-color: var(--Carmín);
+    width: 100%;
+    padding: 30px 0;
+    margin: 30px 0;
+}
+.div2-unirse {
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.div-unirse {
+    padding: 10px 0;
+}
+.div-unirse h3,
+.div-unirse p,
+.unirse h2 {
+    color: var(--Nyanza);
+    font-family: 'Red Rose', serif;
+    padding-bottom: 10px;
+}
+.unirse h2,
+.div-unirse h3 {
+    font-size: 23px;
+}
+.div-unirse p {
+    font-size: 18px;
+}
+
+/*---------- CURSOS ----------*/
+.cursos {
+    width: 100%;
+    color: var(--Nyanza);
+}
+.div-cursos {
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.div-cursos h2 {
+    font-size: 30px;
+    padding: 10px 0 0 30px;
+}
+.img-cursos{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+.img-cursos img{
+    width: 230px;
+    padding: 10px;
+    margin: 40px;
+    box-shadow: 0px 0px 30px 5px rgba(255, 255, 255, 0.4);
+    -webkit-box-shadow: 0px 0px 30px 5px rgba(255, 255, 255, 0.4);
+    -moz-box-shadow: 0px 0px 30px 5px rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+
+/*---------- FOOTER ----------*/
+.footer {
+    width: 100%;
+    height: auto;
+    margin-top: 10vh;
+    padding: 5vh 0;
+    background-color: var(--Gris);
+}
+.sect-foot {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.sect-foot img {
+    width: 50%;
+}
+.cont-foot {
+    padding-top: 4vh;
+}
+.cont-foot h2 {
+    font-size: 20px;
+    color: var(--Nyanza);
+}
+.cont-foot ul li {
+    list-style-type: none
+}
+.cont-foot a {
+    text-decoration: none;
+    color: var(--Nyanza);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------- MEDIA ----------*/
+@media screen and (min-width: 320px) and (max-width: 360px) {
+    /*---------- EMPEZAR ----------*/
+    .empezar {
+    height: 90vh;
+    }
+    /*---------- FASES ----------*/
+    .fases {
+        height: 130vh;
+    }
+}
+
+@media screen and (min-width: 390px) {
+    /*---------- HEADER ----------*/
+    .header {
+        height: 60vh;
+    }
+    .texto-header {
+        margin: 60px auto;
+        width: 90%;
+    }
+    .texto-header h1 {
+        font-size: 35px;
+    }
+    .texto-header p {
+        font-size: 16px;
+    }
+    .btn-header {
+        top: 80%;
+    }
+    /*---------- SLIDER ----------*/
+    .logos-slide img {
+        height: 50px;
+        margin: 0 25px;
+    }
+    /*---------- ENSEÑAR ----------*/
+    .enseñar {
+        margin-top: 50px;
+        height: 60vh;
+        background-color: green;
+    }
+    .grid-enseñar h2 {
+        font-size: 24px;
+    }
+    .grid-enseñar p {
+        font-size: 15px;
+    }
+    /*---------- FASES ----------*/
+    .fases {
+        height: 100vh;
+        margin-bottom: 50px;
+    }
+    .cont-fases h2,
+    .caja-fase h2 {
+        font-size: 30px;
+    }
+    .cont-fases p,
+    .caja-fase p {
+        font-size: 18px;
+    }
+    lord-icon {
+        width: 60px;
+        height: 60px;
+        margin: 10px 8px 0 0;
+    }
+    /*---------- UNIRSE ----------*/
+    .div-unirse {
+        padding: 10px 0;
+    }
+    .unirse h2 {
+        margin-bottom: 20px;
+    }
+    .unirse h2,
+    .div-unirse h3 {
+        font-size: 30px;
+    }
+    .div-unirse p {
+        font-size: 20px;
+    }
+    /*---------- CURSOS ----------*/
+    .div-cursos h2 {
+        font-size: 30px;
+    }
+    .img-cursos img{
+        width: 290px;
+        margin: 50px;
+    }
+}
+
+
+@media screen and (min-width: 480px) {
+    /*---------- ENSEÑAR ----------*/
+    .enseñar {
+        height: 70vh;
+    }
+    .grid-enseñar h2 {
+        font-size: 28px;
+    }
+    .grid-enseñar p {
+        font-size: 18px;
+    }
+    /*---------- EMPEZAR ----------*/
+    .empezar {
+        height: 60vh;
+    }
+    .contine-empezar h2 {
+        font-size: 25px;
+    }
+    .contine-empezar p {
+        font-size: 20px;
+    }
+    .btn-empezar {
+        font-size: 22px;
+    }
+    /*---------- UNIRSE ----------*/
+    .unirse h2,
+    .div-unirse h3 {
+        font-size: 33px;
+    }
+    .div-unirse p {
+        font-size: 22px;
+    }
+    /*---------- CURSOS ----------*/
+    .div-cursos h2 {
+        font-size: 40px;
+    }
+    .img-cursos img{
+        width: 360px;
+        margin: 50px;
+    }
+}
+
+@media screen and (min-width: 760px) {
+    /*---------- HEADER ----------*/
+    .texto-header {
+        margin: 70px auto;
+        width: 90%;
+    }
+    .texto-header h1 {
+        font-size: 40px;
+    }
+    .texto-header p {
+        font-size: 13px;
+    }
+    .btn-header {
+        width: 150px;
+        padding: 15px 10px;
+        top: 75%;
+    }
+    .btn-header p {
+        font-size: 20px;
+    }
+    /*---------- ENSEÑAR ----------*/
+    .enseñar {
+        height: 75vh;
+    }
+    .grid-enseñar h2 {
+        font-size: 40px;
+    }
+    .grid-enseñar p {
+        width: 80%;
+        margin: auto;
+        font-size: 20px;
+    }
+    /*---------- EMPEZAR ----------*/
+    .empezar {
+        height: 50vh;
+    }
+    .contine-empezar h2 {
+        font-size: 35px;
+    }
+    .contine-empezar p {
+        font-size: 23px;
+    }
+    .btn-empezar {
+        font-size: 25px;
+    }
+    /*---------- FASES ----------*/
+    .fases {
+        height: 80vh;
+    }
+    .cont-fases h2,
+    .caja-fase h2 {
+        font-size: 45px;
+    }
+    .cont-fases p,
+    .caja-fase p {
+        font-size: 23px;
+    }
+    lord-icon {
+        width: 100px;
+        height: 100px;
+        margin: 10px 8px 0 0;
+    }
+    /*---------- UNIRSE ----------*/
+    .unirse {
+        padding: 50px 0;
+    }
+    .unirse h2,
+    .div-unirse h3 {
+        font-size: 50px;
+    }
+    .div-unirse p {
+        font-size: 30px;
+    }
+    /*---------- CURSOS ----------*/
+    .div-cursos h2 {
+        font-size: 55px;
+    }
+    .img-cursos img{
+        width: 420px;
+    }
+    /*---------- FOOTER ----------*/
+    .sect-foot {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 5vh;
+    }
+    .sect-foot img {
+        width: 30%;
+    }
+    .cont-foot {
+        padding-top: 4vh;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        margin: auto;
+    }
+    .cont-foot h2 {
+        font-size: 25px;
+    }
+    .cont-foot ul li {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    /*---------- HEADER ----------*/
+    .texto-header {
+        margin: 30px auto;
+    }
+    .btn-header {
+        width: 110px;
+        padding: 10px;
+        top: 80%;
+    }
+    .btn-header p {
+        font-size: 13px;
+    }
+    /*---------- SLIDER ----------*/
+    .logos-slide img {
+        height: 30px;
+    }
+    
+    /*---------- ENSEÑAR ----------*/
+    .enseñar {
+        height: 80vh;
+        display: flex;
+        background-color: green;
+    }
+    .grid-enseñar {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        width: 90%;
+        background-color: var(--CarmínT);
+        align-items: center;
+        text-align: center;
+    }
+    .grid-enseñar img {
+        width: 60vh;
+        margin: auto;
+    }
+    .grid-enseñar h2 {
+        font-size: 30px;
+    }
+    .grid-enseñar p {
+        font-size: 23px;
+        padding: 0;
+    }
+    /*---------- EMPEZAR ----------*/
+    .empezar {
+        height: 80vh;
+        background-color: green;
+    }
+    .contine-empezar h2 {
+        font-size: 35px;
+    }
+    .contine-empezar p {
+        font-size: 23px;
+    }
+    .btn-empezar {
+        font-size: 25px;
+    }
+    /*---------- LINEA ----------*/
+    .linea {
+        width: 80%;
+        height: 1px;
+        background-color: var(--Gris);
+        margin: 30px auto;
+    }
+    /*---------- CURSOS ----------*/
+    .div-cursos h2 {
+        font-size: 60px;
+    }
+    /*---------- FOOTER ----------*/
+    .sect-foot img {
+        width: 30%;
+    }
+    .cont-foot h2 {
+        font-size: 28px;
+    }
+    .cont-foot ul li {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    /*---------- HEADER ----------*/
+    .texto-header h1 {
+        font-size: 55px;
+    }
+    .btn-header {
+        top: 80%;
+    }
+    /*---------- SLIDER ----------*/
+    .logos {
+        padding: 50px 0;
+    }
+    .logos-slide img {
+        height: 50px;
+        margin: 0 50px;
+    }
+    /*---------- EMPEZAR ----------*/
+    .empezar {
+        height: 80vh;
+    }
+    .btn-empezar {
+        width: 30vh;
+    }
+    /*---------- FASES ----------*/
+    .fases {
+        height: 80vh;
+    }
+    .caja-fase {
+        margin: 0 10px 0 0;
+    }
+    .cont-fases h2{
+        font-size: 50px;
+    }
+    .cont-fases p,
+    .caja-fase p {
+        font-size: 22px;
+    }
+    .caja-fase h2 {
+        font-size: 30px;
+        width: 95%;
+        margin: auto;
+    }
+    .caja-fase p {
+        width: 95%;
+        margin: auto;
+    }
+    lord-icon {
+        width: 80px;
+        height: 80px;
+        float: none;
+        margin: 5px 0 0 10px;
+    }
+    .grid-fases {
+        display: grid;
+        grid-template-columns: repeat(3, 2fr);
+    }
+    /*---------- UNIRSE ----------*/
+    .div2-unirse {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .cont-unirse {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 30px;
+    }
+    .unirse h2{
+        font-size: 25px;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 0;
+        margin: auto;
+    }
+    .div-unirse h3{
+        font-size: 35px;
+        padding-bottom: 0;
+    }
+    .div-unirse p {
+        font-size: 20px;
+        padding-bottom: 0;
+    }
+    /*---------- CURSOS ----------*/
+    .div-cursos h2 {
+        font-size: 70px;
+    }
+    .img-cursos img{
+        width: 350px;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    /*---------- HEADER ----------*/
+    .header {
+        height: 65vh;
+    }
+    .texto-header {
+        margin: 60px auto;
+        width: 80%;
+    }
+    .texto-header h1 {
+        font-size: 60px;
+    }
+    .texto-header p {
+        font-size: 15px;
+    }
+    .btn-header {
+        width: 200px;
+        padding: 15px;
+        top: 70%;
+    }
+    .btn-header p {
+        font-size: 23px;
+    }
+    /*---------- SLIDER ----------*/
+    .logos {
+        padding: 30px 0;
+    }
+    .logos-slide img {
+        height: 60px;
+        margin: 0 30px;
+    }
+    /*---------- ENSEÑAR ----------*/
+    .enseñar {
+        height: 70vh;
+    }
+    .grid-enseñar {
+        width: 90%;
+    }
+    .grid-enseñar img {
+        width: 55vh;
+    }
+    .grid-enseñar h2 {
+        font-size: 38px;
+    }
+    .grid-enseñar p {
+        font-size: 30px;
+    }
+    /*---------- EMPEZAR ----------*/
+    .empezar {
+        height: 70vh;
+    }
+    .contine-empezar {
+        width: 80%;
+    }
+    .contine-empezar h2 {
+        font-size: 48px;
+    }
+    .contine-empezar p {
+        font-size: 26px;
+    }
+    .btn-empezar {
+        font-size: 30px;
+    }
+    /*---------- FASES ----------*/
+    .fases {
+        height: 70vh;
+    }
+    .cont-fases h2{
+        font-size: 60px;
+    }
+    .cont-fases p,
+    .caja-fase p {
+        font-size: 25px;
+    }
+    .caja-fase h2 {
+        font-size: 38px;
+    }
+    lord-icon {
+        width: 100px;
+        height: 100px;
+        margin: 5px 0 0 10px;
+    }
+    /*---------- UNIRSE ----------*/
+    .unirse h2{
+        font-size: 30px;
+    }
+    .div-unirse h3{
+        font-size: 40px;
+    }
+    .div-unirse p {
+        font-size: 20px;
+    }
+    /*---------- CURSOS ----------*/
+    .div-cursos h2 {
+        font-size: 80px;
+    }
+    .img-cursos img{
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    /*---------- HEADER ----------*/
+    .texto-header {
+        margin: 100px auto;
+        width: 88%;
+    }
+    .texto-header h1 {
+        font-size: 80px;
+    }
+    .texto-header p {
+        font-size: 25px;
+        margin-top: 25px;
+    }
+    .btn-header {
+        top: 80%;
+    }
+    /*---------- ENSEÑAR ----------*/
+    .grid-enseñar h2 {
+        font-size: 45px;
+    }
+    .grid-enseñar p {
+        font-size: 32px;
+    }
+    /*---------- CURSOS ----------*/
+    .img-cursos img{
+        width: 500px;
+    }
+    /*---------- FOOTER ----------*/
+    .sect-foot img {
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    /*---------- EMPEZAR ----------*/
+    .empezar {
+        height: 90vh;
+    }
+    .contine-empezar h2 {
+        font-size: 70px;
+    }
+    .contine-empezar p {
+        font-size: 30px;
+    }
+    .btn-empezar {
+        font-size: 40px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    /*---------- HEADER ----------*/
+    .texto-header {
+        margin: 100px auto;
+        width: 80%;
+    }
+    .texto-header h1 {
+        font-size: 90px;
+    }
+    .btn-header {
+        width: 300px;
+        padding: 15px;
+        top: 70%;
+    }
+    .btn-header p {
+        font-size: 35px;
+    }
+    /*---------- ENSEÑAR ----------*/
+    .grid-enseñar img {
+        width: 50vh;
+    }
+    .grid-enseñar h2 {
+        font-size: 55px;
+    }
+    .grid-enseñar p {
+        font-size: 37px;
+    }
+    /*---------- EMPEZAR ----------*/
+    .empezar {
+        height: 80vh;
+    }
+    .contine-empezar h2 {
+        font-size: 80px;
+    }
+    .contine-empezar p {
+        font-size: 35px;
+    }
+    .btn-empezar {
+        font-size: 45px;
+    }
+    /*---------- FASES ----------*/
+    .fases {
+        height: 60vh;
+    }
+    .cont-fases h2{
+        font-size: 80px;
+    }
+    .cont-fases p,
+    .caja-fase p {
+        font-size: 28px;
+    }
+    .caja-fase {
+        margin: 0 25px 0 0;
+    }
+    .caja-fase h2 {
+        font-size: 48px;
+    }
+    lord-icon {
+        width: 100px;
+        height: 100px;
+        margin: 5px 0 0 10px;
+    }
+    /*---------- UNIRSE ----------*/
+    .unirse h2{
+        font-size: 40px;
+    }
+    .div-unirse h3{
+        font-size: 50px;
+    }
+    .div-unirse p {
+        font-size: 30px;
+    }
+    /*---------- CURSOS ----------*/
+    .img-cursos img{
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    /*---------- HEADER ----------*/
+    .texto-header {
+        margin: 120px auto;
+        width: 80%;
+    }
+    .texto-header h1 {
+        font-size: 120px;
+    }
+    .texto-header p {
+        font-size: 30px;
+    }
+    .btn-header {
+        width: 350px;
+        padding: 15px;
+        top: 70%;
+    }
+    .btn-header p {
+        font-size: 40px;
+    }
+    /*---------- SLIDER ----------*/
+    .logos {
+        padding: 50px 0;
+    }
+    .logos-slide img {
+        height: 100px;
+        margin: 0 50px;
+    }
+    /*---------- ENSEÑAR ----------*/
+    .grid-enseñar h2 {
+        font-size: 75px;
+    }
+    .grid-enseñar p {
+        font-size: 45px;
+    }
+    /*---------- EMPEZAR ----------*/
+    .contine-empezar h2 {
+        font-size: 120px;
+    }
+    .contine-empezar p {
+        font-size: 45px;
+    }
+    .btn-empezar {
+        font-size: 55px;
+    }
+    /*---------- FASES ----------*/
+    .fases {
+        height: 60vh;
+    }
+    .cont-fases h2{
+        font-size: 100px;
+    }
+    .cont-fases p,
+    .caja-fase p {
+        font-size: 35px;
+    }
+    .caja-fase {
+        margin: 0 25px 0 0;
+    }
+    .caja-fase h2 {
+        font-size: 65px;
+    }
+    lord-icon {
+        width: 170px;
+        height: 170px;
+    }
+    /*---------- UNIRSE ----------*/
+    .unirse h2{
+        font-size: 50px;
+    }
+    .div-unirse h3{
+        font-size: 60px;
+    }
+    .div-unirse p {
+        font-size: 40px;
+    }
+    /*---------- CURSOS ----------*/
+    .div-cursos h2 {
+        font-size: 90px;
+    }
+    .img-cursos img{
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 3840px) {
+    /*---------- HEADER ----------*/
+    .header {
+        height: 75vh;
+    }
+    .texto-header {
+        margin: 150px auto;
+        width: 80%;
+    }
+    .texto-header h1 {
+        font-size: 150px;
+    }
+    .texto-header p {
+        font-size: 35px;
+    }
+    .btn-header {
+        width: 400px;
+        padding: 20px;
+        top: 70%;
+    }
+    .btn-header p {
+        font-size: 50px;
+    }
+    /*---------- SLIDER ----------*/
+    .logos {
+        padding: 20px 0;
+    }
+    .logos-slide img {
+        height: 150px;
+        margin: 0 50px;
+    }
+    /*---------- LINEA ----------*/
+    .linea {
+        margin: 50px auto;
+    }
+    /*---------- ENSEÑAR ----------*/
+    .grid-enseñar img {
+        width: 40vh;
+    }
+    .grid-enseñar h2 {
+        font-size: 85px;
+    }
+    .grid-enseñar p {
+        font-size: 65px;
+    }
+    /*---------- FASES ----------*/
+    .fases {
+        height: 50vh;
+    }
+    .cont-fases h2{
+        font-size: 120px;
+    }
+    .cont-fases p,
+    .caja-fase p {
+        font-size: 45px;
+    }
+    .caja-fase h2 {
+        font-size: 70px;
+    }
+    lord-icon {
+        width: 200px;
+        height: 200px;
+    }
+    /*---------- UNIRSE ----------*/
+    .unirse h2{
+        font-size: 65px;
+    }
+    .div-unirse h3{
+        font-size: 75px;
+    }
+    .div-unirse p {
+        font-size: 55px;
+    }
+    /*---------- CURSOS ----------*/
+    .div-cursos h2 {
+        font-size: 100px;
+    }
+    .img-cursos img{
+        width: 800px;
+    }
+}
