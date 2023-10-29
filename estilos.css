@@ -189,9 +189,10 @@ span {
 /*---------- FASES ----------*/
 .fases {
     width: 100%;
-    height: 100vh;
+    height: auto;
     margin-top: 40px;
     display: flex;
+    padding-bottom: 20vh;
 }
 .cont-fases {
     width: 90%;
@@ -375,7 +376,6 @@ lord-icon {
     .enseñar {
         margin-top: 50px;
         height: 60vh;
-        background-color: green;
     }
     .grid-enseñar h2 {
         font-size: 24px;
@@ -594,7 +594,6 @@ lord-icon {
     .enseñar {
         height: 80vh;
         display: flex;
-        background-color: green;
     }
     .grid-enseñar {
         display: grid;
