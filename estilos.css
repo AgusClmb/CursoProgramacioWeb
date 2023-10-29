@@ -385,7 +385,6 @@ lord-icon {
     }
     /*---------- FASES ----------*/
     .fases {
-        height: 100vh;
         margin-bottom: 50px;
     }
     .cont-fases h2,
@@ -514,9 +513,6 @@ lord-icon {
         font-size: 25px;
     }
     /*---------- FASES ----------*/
-    .fases {
-        height: 80vh;
-    }
     .cont-fases h2,
     .caja-fase h2 {
         font-size: 45px;
@@ -676,9 +672,6 @@ lord-icon {
         width: 30vh;
     }
     /*---------- FASES ----------*/
-    .fases {
-        height: 80vh;
-    }
     .caja-fase {
         margin: 0 10px 0 0;
     }
@@ -806,9 +799,6 @@ lord-icon {
         font-size: 30px;
     }
     /*---------- FASES ----------*/
-    .fases {
-        height: 70vh;
-    }
     .cont-fases h2{
         font-size: 60px;
     }
@@ -934,9 +924,6 @@ lord-icon {
         font-size: 45px;
     }
     /*---------- FASES ----------*/
-    .fases {
-        height: 60vh;
-    }
     .cont-fases h2{
         font-size: 80px;
     }
@@ -1017,9 +1004,6 @@ lord-icon {
         font-size: 55px;
     }
     /*---------- FASES ----------*/
-    .fases {
-        height: 60vh;
-    }
     .cont-fases h2{
         font-size: 100px;
     }
@@ -1102,9 +1086,6 @@ lord-icon {
         font-size: 65px;
     }
     /*---------- FASES ----------*/
-    .fases {
-        height: 50vh;
-    }
     .cont-fases h2{
         font-size: 120px;
     }
