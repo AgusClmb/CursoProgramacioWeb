@@ -25,7 +25,7 @@ body {
     width: 100%;
     text-align: center;
     align-items: center;
-    margin-top: 5vh;
+    margin-top: 2vh;
 }
 .img-icon img {
     width: 30%;
@@ -659,7 +659,7 @@ lord-icon {
 @media screen and (min-width: 1000px) {
     /*---------- HEADER ----------*/
     .header {
-        height: 90vh;
+        height: 95vh;
     }
     .texto-header h1 {
         font-size: 55px;
