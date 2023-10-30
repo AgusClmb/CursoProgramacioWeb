@@ -70,13 +70,14 @@ span {
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 15px;
 }
 
-.btn-header p {
+.btn-header p a {
     color: var(--Nyanza);
-    font-size: 15px;
     text-align: center;
     font-family: 'Maven Pro', sans-serif;
+    text-decoration: none;
 }
 
 /*---------- SLIDER ----------*/
@@ -187,13 +188,16 @@ span {
 }
 .btn-empezar {
     background-color: var(--OUCarmesí);
-    color: var(--Nyanza);
     width: 20vh;
     font-size: 18px;
     text-align: center;
     margin-top: 10px;
     padding: 5px;
     font-family: 'Red Rose', serif;
+}
+.btn-empezar a {
+    text-decoration: none;
+    color: var(--Nyanza);
 }
 
 /*---------- FASES ----------*/
