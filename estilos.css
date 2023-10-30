@@ -25,10 +25,10 @@ body {
     width: 100%;
     text-align: center;
     align-items: center;
-    margin: auto;
+    margin-top: 5vh;
 }
 .img-icon img {
-    width: 100px;
+    width: 30%;
 }
 
 /*---------- HEADER ----------*/
@@ -477,10 +477,6 @@ lord-icon {
 }
 
 @media screen and (min-width: 760px) {
-    /*---------- ICONO ----------*/
-    .img-icon img {
-        width: 200px;
-    }
     /*---------- HEADER ----------*/
     .texto-header {
         margin: 10px auto;
@@ -559,9 +555,7 @@ lord-icon {
     }
     /*---------- FOOTER ----------*/
     .footer {
-        margin-top: 20px;
-        padding: 10px 0;
-        margin-bottom: 10px;
+        padding: 2vh 0;
     }
     .sect-foot {
         display: flex;
@@ -569,10 +563,11 @@ lord-icon {
         gap: 5vh;
     }
     .sect-foot img {
-        width: 20%;
+        width: 25%;
     }
     .cont-foot {
-        padding-top: 4vh;
+        margin: 0;
+        padding: 0;
         justify-content: center;
         align-items: center;
         text-align: left;
@@ -874,9 +869,6 @@ lord-icon {
         width: 500px;
     }
     /*---------- FOOTER ----------*/
-    .sect-foot img {
-        width: 20%;
-    }
 }
 
 @media screen and (min-width: 1600px) {
