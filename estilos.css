@@ -20,6 +20,17 @@ body {
     background-color: var(--Noche);
 }
 
+/*---------- ICONO ----------*/
+.img-icon {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+.img-icon img {
+    width: 100px;
+}
+
 /*---------- HEADER ----------*/
 .header {
     width: 100%;
@@ -28,7 +39,7 @@ body {
 }
 
 .texto-header {
-    margin: 50px auto;
+    margin: 10px auto 50px auto;
     width: 90%;
 }
 
@@ -353,7 +364,6 @@ lord-icon {
         height: 60vh;
     }
     .texto-header {
-        margin: 60px auto;
         width: 90%;
     }
     .texto-header h1 {
@@ -463,9 +473,13 @@ lord-icon {
 }
 
 @media screen and (min-width: 760px) {
+    /*---------- ICONO ----------*/
+    .img-icon img {
+        width: 200px;
+    }
     /*---------- HEADER ----------*/
     .texto-header {
-        margin: 70px auto;
+        margin: 10px auto;
         width: 90%;
     }
     .texto-header h1 {
@@ -645,6 +659,9 @@ lord-icon {
 
 @media screen and (min-width: 1000px) {
     /*---------- HEADER ----------*/
+    .header {
+        height: auto;
+    }
     .texto-header h1 {
         font-size: 55px;
     }

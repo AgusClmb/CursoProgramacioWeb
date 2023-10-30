@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* color: var(--nombre);*/
+:root {
+    --FaluRojo: #751515;
+    --OUCarmesí: #8a1717;
+    --Carmín: #951818;
+    --CarmínT: #95181871;
+    --NegroAumado: #070600;
+    --Noche: #0F0F0F;
+    --Gris: #222222;
+    --Nyanza: #e8f8e7;
+    --NyanzaL: #c9c9c9;
+}
+
+/*---------- LINEA ----------*/
+.linea {
+    width: 80%;
+    height: 1px;
+    background-color: var(--Gris);
+    margin: 10px auto;
+}
+
+.PoliPrivImg {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+.PoliPrivImg img {
+    width: 30%;
+}
+
+/*---------- Politicas de privacidad ----------*/
+.PoliPriv {
+    padding-top: 0;
+    padding: 8%;
+    background-color: var(--Noche);
+    color: var(--Nyanza);
+}
+.PoliPriv h2,
+.PoliPriv h3 {
+    font-family: 'Red Rose', serif;
+}
+.PoliPriv p {
+    font-family: 'Crimson Text', serif;
+}
