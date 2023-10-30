@@ -584,7 +584,7 @@ lord-icon {
 @media screen and (min-width: 900px) {
     /*---------- HEADER ----------*/
     .texto-header {
-        margin: 30px auto;
+        margin: 0 auto;
     }
     .btn-header {
         width: 110px;
@@ -749,7 +749,7 @@ lord-icon {
 @media screen and (min-width: 1250px) {
     /*---------- HEADER ----------*/
     .texto-header {
-        margin: 60px auto;
+        margin: 0 auto;
         width: 80%;
     }
     .texto-header h1 {
@@ -844,7 +844,7 @@ lord-icon {
 @media screen and (min-width: 1400px) {
     /*---------- HEADER ----------*/
     .texto-header {
-        margin: 100px auto;
+        margin: 0 auto;
         width: 88%;
     }
     .texto-header h1 {
@@ -891,7 +891,7 @@ lord-icon {
 @media screen and (min-width: 1900px) {
     /*---------- HEADER ----------*/
     .texto-header {
-        margin: 100px auto;
+        margin: 0 auto;
         width: 80%;
     }
     .texto-header h1 {
@@ -966,7 +966,7 @@ lord-icon {
 @media screen and (min-width: 2560px) {
     /*---------- HEADER ----------*/
     .texto-header {
-        margin: 120px auto;
+        margin: 0 auto;
         width: 80%;
     }
     .texto-header h1 {
