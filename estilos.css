@@ -71,11 +71,11 @@ span {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 15px;
+    text-align: center;
 }
 
 .btn-header p a {
     color: var(--Nyanza);
-    text-align: center;
     font-family: 'Maven Pro', sans-serif;
     text-decoration: none;
 }
