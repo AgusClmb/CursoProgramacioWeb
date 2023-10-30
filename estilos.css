@@ -660,7 +660,7 @@ lord-icon {
 @media screen and (min-width: 1000px) {
     /*---------- HEADER ----------*/
     .header {
-        height: auto;
+        height: 90vh;
     }
     .texto-header h1 {
         font-size: 55px;
@@ -749,9 +749,6 @@ lord-icon {
 
 @media screen and (min-width: 1250px) {
     /*---------- HEADER ----------*/
-    .header {
-        height: 65vh;
-    }
     .texto-header {
         margin: 60px auto;
         width: 80%;
